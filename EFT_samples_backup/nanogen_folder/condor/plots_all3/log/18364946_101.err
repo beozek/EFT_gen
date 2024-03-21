@@ -1,0 +1,3 @@
+WARNING: In non-interactive mode release checks e.g. deprecated releases, production architectures are disabled.
+WARNING: There already exists /nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/condor/CMSSW_10_6_28 area for SCRAM_ARCH slc7_amd64_gcc820.
+[53.28kB/53.28kB][100%][==================================================][53.28kB/s]  [53.28kB/53.28kB][100%][==================================================][17.76kB/s]  

@@ -1,0 +1,10 @@
+Universe = vanilla
+Executable = run_on_condor.sh
+output = $(Cluster)_$(Process).out
+error = $(Cluster)_$(Process).err
+log = $(Cluster)_$(Process).log
+Transfer_Input_Files = nanogen_cfg.py, TT01j1lCA_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz
+WhenToTransferOutput = ON_EXIT
+arguments = "gridpack=/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_26/src/EFT_gen_old/EFT_samples/nanogen_folder/nanogen_generation/condor/TT01j1lCA_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz maxEvents=10"
+
+queue 

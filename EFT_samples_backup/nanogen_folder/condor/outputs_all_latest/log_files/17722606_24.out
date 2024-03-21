@@ -1,0 +1,11 @@
+
+Sourcing Grid UI environment ('/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/condor/run_on_condor.sh') ...
+
+Using Grid environment in '/cvmfs/grid.cern.ch/centos7-umd4-ui-211021'.
+Adding DESY site environment.
+/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/condor/CMSSW_10_6_28 is the CMSSW we created on the local worker node
+/var/lib/condor/execute/dir_9876
+('Processing file:', '/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/nano_files/1j1l_NoHT/nanogen_123_120.root')
+('Number of events in file:', 740L)
+Processed: /nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/nano_files/1j1l_NoHT/nanogen_123_120.root
+('Total number of events:', 740L)

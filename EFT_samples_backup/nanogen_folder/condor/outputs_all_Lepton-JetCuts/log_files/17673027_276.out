@@ -1,0 +1,9 @@
+
+The Grid UI environment has been sourced already! Doing nothing here ...
+
+/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/condor/CMSSW_10_6_28 is the CMSSW we created on the local worker node
+/var/lib/condor/execute/dir_83355
+('Processing file:', '/nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/nano_files/1j1l_NoHT/nanogen_123_348.root')
+('Number of events in file:', 738L)
+Processed: /nfs/dust/cms/user/beozek/EFT/CMSSW_10_6_27/src/EFT_gen_old/EFT_samples/nanogen_folder/nano_files/1j1l_NoHT/nanogen_123_348.root
+('Total number of events:', 738L)

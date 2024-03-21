@@ -1,0 +1,12 @@
+Universe = vanilla
+Executable = run_on_condor.sh
+output = $(Cluster)_$(Process).out
+error = $(Cluster)_$(Process).err
+log = $(Cluster)_$(Process).log
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT 
+
+Transfer_Input_Files = EFT_nanofiles_fully_semileptonic.py
+Transfer_Output_Files = output_histograms.root
+
+Queue 1

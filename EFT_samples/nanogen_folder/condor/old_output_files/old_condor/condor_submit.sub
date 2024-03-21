@@ -1,0 +1,9 @@
+Universe = vanilla
+Executable = run_on_condor.sh
+Arguments = $(Item)
+output = logs/$(Cluster)_$(Process).out
+error = logs/$(Cluster)_$(Process).err
+log = logs/$(Cluster)_$(Process).log
+should_transfer_files = IF_NEEDED
+when_to_transfer_output = ON_EXIT
+Queue Item from input_files_list.txt

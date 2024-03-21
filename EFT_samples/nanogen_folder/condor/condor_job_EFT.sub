@@ -1,0 +1,807 @@
+Universe = vanilla
+Executable = run_on_condor_EFT.sh
+output = $(Cluster)_$(Process).out
+error = $(Cluster)_$(Process).err
+log = $(Cluster)_$(Process).log
+Transfer_Input_Files = EFT_nanofiles_fully_semileptonic_multiprocess_weights_nocut.py
+WhenToTransferOutput = ON_EXIT
+arguments = nanogen_123_1.root
+Queue
+arguments = nanogen_123_10.root
+Queue
+arguments = nanogen_123_100.root
+Queue
+arguments = nanogen_123_101.root
+Queue
+arguments = nanogen_123_102.root
+Queue
+arguments = nanogen_123_103.root
+Queue
+arguments = nanogen_123_104.root
+Queue
+arguments = nanogen_123_105.root
+Queue
+arguments = nanogen_123_106.root
+Queue
+arguments = nanogen_123_107.root
+Queue
+arguments = nanogen_123_108.root
+Queue
+arguments = nanogen_123_109.root
+Queue
+arguments = nanogen_123_11.root
+Queue
+arguments = nanogen_123_110.root
+Queue
+arguments = nanogen_123_111.root
+Queue
+arguments = nanogen_123_112.root
+Queue
+arguments = nanogen_123_113.root
+Queue
+arguments = nanogen_123_114.root
+Queue
+arguments = nanogen_123_115.root
+Queue
+arguments = nanogen_123_116.root
+Queue
+arguments = nanogen_123_117.root
+Queue
+arguments = nanogen_123_118.root
+Queue
+arguments = nanogen_123_119.root
+Queue
+arguments = nanogen_123_12.root
+Queue
+arguments = nanogen_123_120.root
+Queue
+arguments = nanogen_123_121.root
+Queue
+arguments = nanogen_123_122.root
+Queue
+arguments = nanogen_123_123.root
+Queue
+arguments = nanogen_123_124.root
+Queue
+arguments = nanogen_123_125.root
+Queue
+arguments = nanogen_123_126.root
+Queue
+arguments = nanogen_123_127.root
+Queue
+arguments = nanogen_123_128.root
+Queue
+arguments = nanogen_123_129.root
+Queue
+arguments = nanogen_123_13.root
+Queue
+arguments = nanogen_123_130.root
+Queue
+arguments = nanogen_123_131.root
+Queue
+arguments = nanogen_123_132.root
+Queue
+arguments = nanogen_123_133.root
+Queue
+arguments = nanogen_123_134.root
+Queue
+arguments = nanogen_123_135.root
+Queue
+arguments = nanogen_123_136.root
+Queue
+arguments = nanogen_123_137.root
+Queue
+arguments = nanogen_123_138.root
+Queue
+arguments = nanogen_123_139.root
+Queue
+arguments = nanogen_123_14.root
+Queue
+arguments = nanogen_123_140.root
+Queue
+arguments = nanogen_123_141.root
+Queue
+arguments = nanogen_123_142.root
+Queue
+arguments = nanogen_123_143.root
+Queue
+arguments = nanogen_123_144.root
+Queue
+arguments = nanogen_123_145.root
+Queue
+arguments = nanogen_123_146.root
+Queue
+arguments = nanogen_123_147.root
+Queue
+arguments = nanogen_123_148.root
+Queue
+arguments = nanogen_123_149.root
+Queue
+arguments = nanogen_123_15.root
+Queue
+arguments = nanogen_123_150.root
+Queue
+arguments = nanogen_123_151.root
+Queue
+arguments = nanogen_123_152.root
+Queue
+arguments = nanogen_123_153.root
+Queue
+arguments = nanogen_123_154.root
+Queue
+arguments = nanogen_123_155.root
+Queue
+arguments = nanogen_123_156.root
+Queue
+arguments = nanogen_123_157.root
+Queue
+arguments = nanogen_123_158.root
+Queue
+arguments = nanogen_123_159.root
+Queue
+arguments = nanogen_123_16.root
+Queue
+arguments = nanogen_123_160.root
+Queue
+arguments = nanogen_123_161.root
+Queue
+arguments = nanogen_123_162.root
+Queue
+arguments = nanogen_123_163.root
+Queue
+arguments = nanogen_123_164.root
+Queue
+arguments = nanogen_123_165.root
+Queue
+arguments = nanogen_123_166.root
+Queue
+arguments = nanogen_123_167.root
+Queue
+arguments = nanogen_123_168.root
+Queue
+arguments = nanogen_123_169.root
+Queue
+arguments = nanogen_123_17.root
+Queue
+arguments = nanogen_123_170.root
+Queue
+arguments = nanogen_123_171.root
+Queue
+arguments = nanogen_123_172.root
+Queue
+arguments = nanogen_123_173.root
+Queue
+arguments = nanogen_123_174.root
+Queue
+arguments = nanogen_123_175.root
+Queue
+arguments = nanogen_123_176.root
+Queue
+arguments = nanogen_123_177.root
+Queue
+arguments = nanogen_123_178.root
+Queue
+arguments = nanogen_123_179.root
+Queue
+arguments = nanogen_123_18.root
+Queue
+arguments = nanogen_123_180.root
+Queue
+arguments = nanogen_123_181.root
+Queue
+arguments = nanogen_123_182.root
+Queue
+arguments = nanogen_123_183.root
+Queue
+arguments = nanogen_123_184.root
+Queue
+arguments = nanogen_123_185.root
+Queue
+arguments = nanogen_123_186.root
+Queue
+arguments = nanogen_123_187.root
+Queue
+arguments = nanogen_123_188.root
+Queue
+arguments = nanogen_123_189.root
+Queue
+arguments = nanogen_123_19.root
+Queue
+arguments = nanogen_123_190.root
+Queue
+arguments = nanogen_123_191.root
+Queue
+arguments = nanogen_123_192.root
+Queue
+arguments = nanogen_123_193.root
+Queue
+arguments = nanogen_123_194.root
+Queue
+arguments = nanogen_123_195.root
+Queue
+arguments = nanogen_123_196.root
+Queue
+arguments = nanogen_123_197.root
+Queue
+arguments = nanogen_123_198.root
+Queue
+arguments = nanogen_123_199.root
+Queue
+arguments = nanogen_123_2.root
+Queue
+arguments = nanogen_123_20.root
+Queue
+arguments = nanogen_123_200.root
+Queue
+arguments = nanogen_123_201.root
+Queue
+arguments = nanogen_123_202.root
+Queue
+arguments = nanogen_123_203.root
+Queue
+arguments = nanogen_123_204.root
+Queue
+arguments = nanogen_123_205.root
+Queue
+arguments = nanogen_123_206.root
+Queue
+arguments = nanogen_123_207.root
+Queue
+arguments = nanogen_123_208.root
+Queue
+arguments = nanogen_123_209.root
+Queue
+arguments = nanogen_123_21.root
+Queue
+arguments = nanogen_123_210.root
+Queue
+arguments = nanogen_123_211.root
+Queue
+arguments = nanogen_123_212.root
+Queue
+arguments = nanogen_123_213.root
+Queue
+arguments = nanogen_123_214.root
+Queue
+arguments = nanogen_123_215.root
+Queue
+arguments = nanogen_123_216.root
+Queue
+arguments = nanogen_123_217.root
+Queue
+arguments = nanogen_123_218.root
+Queue
+arguments = nanogen_123_219.root
+Queue
+arguments = nanogen_123_22.root
+Queue
+arguments = nanogen_123_220.root
+Queue
+arguments = nanogen_123_221.root
+Queue
+arguments = nanogen_123_222.root
+Queue
+arguments = nanogen_123_223.root
+Queue
+arguments = nanogen_123_224.root
+Queue
+arguments = nanogen_123_225.root
+Queue
+arguments = nanogen_123_226.root
+Queue
+arguments = nanogen_123_227.root
+Queue
+arguments = nanogen_123_228.root
+Queue
+arguments = nanogen_123_229.root
+Queue
+arguments = nanogen_123_23.root
+Queue
+arguments = nanogen_123_230.root
+Queue
+arguments = nanogen_123_231.root
+Queue
+arguments = nanogen_123_232.root
+Queue
+arguments = nanogen_123_233.root
+Queue
+arguments = nanogen_123_234.root
+Queue
+arguments = nanogen_123_235.root
+Queue
+arguments = nanogen_123_236.root
+Queue
+arguments = nanogen_123_237.root
+Queue
+arguments = nanogen_123_238.root
+Queue
+arguments = nanogen_123_239.root
+Queue
+arguments = nanogen_123_24.root
+Queue
+arguments = nanogen_123_240.root
+Queue
+arguments = nanogen_123_241.root
+Queue
+arguments = nanogen_123_242.root
+Queue
+arguments = nanogen_123_243.root
+Queue
+arguments = nanogen_123_244.root
+Queue
+arguments = nanogen_123_245.root
+Queue
+arguments = nanogen_123_246.root
+Queue
+arguments = nanogen_123_247.root
+Queue
+arguments = nanogen_123_248.root
+Queue
+arguments = nanogen_123_249.root
+Queue
+arguments = nanogen_123_25.root
+Queue
+arguments = nanogen_123_250.root
+Queue
+arguments = nanogen_123_251.root
+Queue
+arguments = nanogen_123_252.root
+Queue
+arguments = nanogen_123_253.root
+Queue
+arguments = nanogen_123_254.root
+Queue
+arguments = nanogen_123_255.root
+Queue
+arguments = nanogen_123_256.root
+Queue
+arguments = nanogen_123_257.root
+Queue
+arguments = nanogen_123_258.root
+Queue
+arguments = nanogen_123_259.root
+Queue
+arguments = nanogen_123_26.root
+Queue
+arguments = nanogen_123_260.root
+Queue
+arguments = nanogen_123_261.root
+Queue
+arguments = nanogen_123_262.root
+Queue
+arguments = nanogen_123_263.root
+Queue
+arguments = nanogen_123_264.root
+Queue
+arguments = nanogen_123_265.root
+Queue
+arguments = nanogen_123_266.root
+Queue
+arguments = nanogen_123_267.root
+Queue
+arguments = nanogen_123_268.root
+Queue
+arguments = nanogen_123_269.root
+Queue
+arguments = nanogen_123_27.root
+Queue
+arguments = nanogen_123_270.root
+Queue
+arguments = nanogen_123_271.root
+Queue
+arguments = nanogen_123_272.root
+Queue
+arguments = nanogen_123_273.root
+Queue
+arguments = nanogen_123_274.root
+Queue
+arguments = nanogen_123_275.root
+Queue
+arguments = nanogen_123_276.root
+Queue
+arguments = nanogen_123_277.root
+Queue
+arguments = nanogen_123_278.root
+Queue
+arguments = nanogen_123_279.root
+Queue
+arguments = nanogen_123_28.root
+Queue
+arguments = nanogen_123_280.root
+Queue
+arguments = nanogen_123_281.root
+Queue
+arguments = nanogen_123_282.root
+Queue
+arguments = nanogen_123_283.root
+Queue
+arguments = nanogen_123_284.root
+Queue
+arguments = nanogen_123_285.root
+Queue
+arguments = nanogen_123_286.root
+Queue
+arguments = nanogen_123_287.root
+Queue
+arguments = nanogen_123_288.root
+Queue
+arguments = nanogen_123_289.root
+Queue
+arguments = nanogen_123_29.root
+Queue
+arguments = nanogen_123_290.root
+Queue
+arguments = nanogen_123_291.root
+Queue
+arguments = nanogen_123_292.root
+Queue
+arguments = nanogen_123_293.root
+Queue
+arguments = nanogen_123_294.root
+Queue
+arguments = nanogen_123_295.root
+Queue
+arguments = nanogen_123_296.root
+Queue
+arguments = nanogen_123_297.root
+Queue
+arguments = nanogen_123_298.root
+Queue
+arguments = nanogen_123_299.root
+Queue
+arguments = nanogen_123_3.root
+Queue
+arguments = nanogen_123_30.root
+Queue
+arguments = nanogen_123_300.root
+Queue
+arguments = nanogen_123_301.root
+Queue
+arguments = nanogen_123_302.root
+Queue
+arguments = nanogen_123_303.root
+Queue
+arguments = nanogen_123_304.root
+Queue
+arguments = nanogen_123_305.root
+Queue
+arguments = nanogen_123_306.root
+Queue
+arguments = nanogen_123_307.root
+Queue
+arguments = nanogen_123_308.root
+Queue
+arguments = nanogen_123_309.root
+Queue
+arguments = nanogen_123_31.root
+Queue
+arguments = nanogen_123_310.root
+Queue
+arguments = nanogen_123_311.root
+Queue
+arguments = nanogen_123_312.root
+Queue
+arguments = nanogen_123_313.root
+Queue
+arguments = nanogen_123_314.root
+Queue
+arguments = nanogen_123_315.root
+Queue
+arguments = nanogen_123_316.root
+Queue
+arguments = nanogen_123_317.root
+Queue
+arguments = nanogen_123_318.root
+Queue
+arguments = nanogen_123_319.root
+Queue
+arguments = nanogen_123_32.root
+Queue
+arguments = nanogen_123_320.root
+Queue
+arguments = nanogen_123_321.root
+Queue
+arguments = nanogen_123_322.root
+Queue
+arguments = nanogen_123_323.root
+Queue
+arguments = nanogen_123_324.root
+Queue
+arguments = nanogen_123_325.root
+Queue
+arguments = nanogen_123_326.root
+Queue
+arguments = nanogen_123_327.root
+Queue
+arguments = nanogen_123_328.root
+Queue
+arguments = nanogen_123_329.root
+Queue
+arguments = nanogen_123_33.root
+Queue
+arguments = nanogen_123_330.root
+Queue
+arguments = nanogen_123_331.root
+Queue
+arguments = nanogen_123_332.root
+Queue
+arguments = nanogen_123_333.root
+Queue
+arguments = nanogen_123_334.root
+Queue
+arguments = nanogen_123_335.root
+Queue
+arguments = nanogen_123_336.root
+Queue
+arguments = nanogen_123_337.root
+Queue
+arguments = nanogen_123_338.root
+Queue
+arguments = nanogen_123_339.root
+Queue
+arguments = nanogen_123_34.root
+Queue
+arguments = nanogen_123_340.root
+Queue
+arguments = nanogen_123_341.root
+Queue
+arguments = nanogen_123_342.root
+Queue
+arguments = nanogen_123_343.root
+Queue
+arguments = nanogen_123_344.root
+Queue
+arguments = nanogen_123_345.root
+Queue
+arguments = nanogen_123_346.root
+Queue
+arguments = nanogen_123_347.root
+Queue
+arguments = nanogen_123_348.root
+Queue
+arguments = nanogen_123_349.root
+Queue
+arguments = nanogen_123_35.root
+Queue
+arguments = nanogen_123_350.root
+Queue
+arguments = nanogen_123_351.root
+Queue
+arguments = nanogen_123_352.root
+Queue
+arguments = nanogen_123_353.root
+Queue
+arguments = nanogen_123_354.root
+Queue
+arguments = nanogen_123_355.root
+Queue
+arguments = nanogen_123_356.root
+Queue
+arguments = nanogen_123_357.root
+Queue
+arguments = nanogen_123_358.root
+Queue
+arguments = nanogen_123_359.root
+Queue
+arguments = nanogen_123_36.root
+Queue
+arguments = nanogen_123_360.root
+Queue
+arguments = nanogen_123_361.root
+Queue
+arguments = nanogen_123_362.root
+Queue
+arguments = nanogen_123_363.root
+Queue
+arguments = nanogen_123_364.root
+Queue
+arguments = nanogen_123_365.root
+Queue
+arguments = nanogen_123_366.root
+Queue
+arguments = nanogen_123_367.root
+Queue
+arguments = nanogen_123_368.root
+Queue
+arguments = nanogen_123_369.root
+Queue
+arguments = nanogen_123_37.root
+Queue
+arguments = nanogen_123_370.root
+Queue
+arguments = nanogen_123_371.root
+Queue
+arguments = nanogen_123_372.root
+Queue
+arguments = nanogen_123_373.root
+Queue
+arguments = nanogen_123_374.root
+Queue
+arguments = nanogen_123_375.root
+Queue
+arguments = nanogen_123_376.root
+Queue
+arguments = nanogen_123_377.root
+Queue
+arguments = nanogen_123_378.root
+Queue
+arguments = nanogen_123_379.root
+Queue
+arguments = nanogen_123_38.root
+Queue
+arguments = nanogen_123_380.root
+Queue
+arguments = nanogen_123_381.root
+Queue
+arguments = nanogen_123_382.root
+Queue
+arguments = nanogen_123_383.root
+Queue
+arguments = nanogen_123_384.root
+Queue
+arguments = nanogen_123_385.root
+Queue
+arguments = nanogen_123_386.root
+Queue
+arguments = nanogen_123_387.root
+Queue
+arguments = nanogen_123_388.root
+Queue
+arguments = nanogen_123_389.root
+Queue
+arguments = nanogen_123_39.root
+Queue
+arguments = nanogen_123_390.root
+Queue
+arguments = nanogen_123_391.root
+Queue
+arguments = nanogen_123_392.root
+Queue
+arguments = nanogen_123_393.root
+Queue
+arguments = nanogen_123_394.root
+Queue
+arguments = nanogen_123_395.root
+Queue
+arguments = nanogen_123_396.root
+Queue
+arguments = nanogen_123_397.root
+Queue
+arguments = nanogen_123_398.root
+Queue
+arguments = nanogen_123_399.root
+Queue
+arguments = nanogen_123_4.root
+Queue
+arguments = nanogen_123_40.root
+Queue
+arguments = nanogen_123_400.root
+Queue
+arguments = nanogen_123_41.root
+Queue
+arguments = nanogen_123_42.root
+Queue
+arguments = nanogen_123_43.root
+Queue
+arguments = nanogen_123_44.root
+Queue
+arguments = nanogen_123_45.root
+Queue
+arguments = nanogen_123_46.root
+Queue
+arguments = nanogen_123_47.root
+Queue
+arguments = nanogen_123_48.root
+Queue
+arguments = nanogen_123_49.root
+Queue
+arguments = nanogen_123_5.root
+Queue
+arguments = nanogen_123_50.root
+Queue
+arguments = nanogen_123_51.root
+Queue
+arguments = nanogen_123_52.root
+Queue
+arguments = nanogen_123_53.root
+Queue
+arguments = nanogen_123_54.root
+Queue
+arguments = nanogen_123_55.root
+Queue
+arguments = nanogen_123_56.root
+Queue
+arguments = nanogen_123_57.root
+Queue
+arguments = nanogen_123_58.root
+Queue
+arguments = nanogen_123_59.root
+Queue
+arguments = nanogen_123_6.root
+Queue
+arguments = nanogen_123_60.root
+Queue
+arguments = nanogen_123_61.root
+Queue
+arguments = nanogen_123_62.root
+Queue
+arguments = nanogen_123_63.root
+Queue
+arguments = nanogen_123_64.root
+Queue
+arguments = nanogen_123_65.root
+Queue
+arguments = nanogen_123_66.root
+Queue
+arguments = nanogen_123_67.root
+Queue
+arguments = nanogen_123_68.root
+Queue
+arguments = nanogen_123_69.root
+Queue
+arguments = nanogen_123_7.root
+Queue
+arguments = nanogen_123_70.root
+Queue
+arguments = nanogen_123_71.root
+Queue
+arguments = nanogen_123_72.root
+Queue
+arguments = nanogen_123_73.root
+Queue
+arguments = nanogen_123_74.root
+Queue
+arguments = nanogen_123_75.root
+Queue
+arguments = nanogen_123_76.root
+Queue
+arguments = nanogen_123_77.root
+Queue
+arguments = nanogen_123_78.root
+Queue
+arguments = nanogen_123_79.root
+Queue
+arguments = nanogen_123_8.root
+Queue
+arguments = nanogen_123_80.root
+Queue
+arguments = nanogen_123_81.root
+Queue
+arguments = nanogen_123_82.root
+Queue
+arguments = nanogen_123_83.root
+Queue
+arguments = nanogen_123_84.root
+Queue
+arguments = nanogen_123_85.root
+Queue
+arguments = nanogen_123_86.root
+Queue
+arguments = nanogen_123_87.root
+Queue
+arguments = nanogen_123_88.root
+Queue
+arguments = nanogen_123_89.root
+Queue
+arguments = nanogen_123_9.root
+Queue
+arguments = nanogen_123_90.root
+Queue
+arguments = nanogen_123_91.root
+Queue
+arguments = nanogen_123_92.root
+Queue
+arguments = nanogen_123_93.root
+Queue
+arguments = nanogen_123_94.root
+Queue
+arguments = nanogen_123_95.root
+Queue
+arguments = nanogen_123_96.root
+Queue
+arguments = nanogen_123_97.root
+Queue
+arguments = nanogen_123_98.root
+Queue
+arguments = nanogen_123_99.root
+Queue
